@@ -1,0 +1,20 @@
+#btn{
+    background-color: #a8b3a8; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    /* background-color: #4CAF50; */
+    height: 299px;
+}
