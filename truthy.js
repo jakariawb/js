@@ -100,3 +100,11 @@ var array1 = [1,2,3,4,5,6,7,];
 })
 console.log(rusult);
 
+//array .prototype . reduce()
+
+var number2 = [1,3,5,4,67,8,]
+
+ var rusult = number2.reduce((prevValue,currentValue,currentIndex,arr)=>{
+    return prevValue + currentValue + currentIndex+ arr;
+} ,0)
+console.log(rusult)
