@@ -31,7 +31,8 @@ for(property in obj){
     console.log(property)
 }
 //এই খানে ভার এর সব প্র্পাট্রি অউটপুট আসবে ফর ইন লুপ ইটারেট কর্রবে
-// আমরা এবার  দেকবো ফর অফ লুপ এর ব্যবহার দরেন এরে নেব 
+
+// !আমরা এবার  দেকবো ফর অফ লুপ এর ব্যবহার দরেন এরে নেব 
 var array = [1,2,3,4,5,6]
 //এখানে জদি আমরা ইন ব্যবহার করি তা হলে আমরা ইন্দেক্স নাম্বার পাব অউটপুট পাব ১,২,৩,৪,৫, 
 for (array in array){
@@ -46,13 +47,14 @@ var array = 'jakaria'
 for(name of array){
     console.log(name)
 }
-//আমরা চাইলে এই সেইম কাজ স্ত্রিং এর জন্য ব্যবহার করতে পারি 
 
+//আমরা চাইলে এই সেইম কাজ স্ত্রিং এর জন্য ব্যবহার করতে পারি 
 var array = 'jakaria'
 for(name of array){
     console.log(name)
 }
-//এর জদি অফ ব্যবহার করি তাহলে স্ত্রিং টাকে পাব জমেন j
+//এর জদি অফ ব্যবহার করি তাহলে স্ত্রিং টাকে পাব জমেন 
+// j
 // a
 // k
 // a
@@ -60,11 +62,15 @@ for(name of array){
 // i
 // a
 //এই বাবে
+
+//!এখানে জদি আমরা ইন ব্যবহার করি তা হলে আমরা ইন্দেক্স নাম্বার পাব অউটপুট পাব 0,১,২,৩,৪,৫,6;
 var array = 'jakaria'
 for(name1 in array){
     console.log(name1)
 }
-//এখানে জদি আমরা ইন ব্যবহার করি তা হলে আমরা ইন্দেক্স নাম্বার পাব অউটপুট পাব 0,১,২,৩,৪,৫,6;
+
+
+
 //আমরা এখন দেখব important onject methods kesy এর ব্যবহার
 var name = {
     name:'jakaria',
@@ -72,16 +78,16 @@ var name = {
     profsone:'devloper',
     homeTowne:'pirojpur'
 }
-//এই খান থেকে আমরা অবজেক্ট এর কিস গুল কে বের করছি Object keys হইচে  [ 'name', 'age', 'profsone', 'homeTowne' ]এই গুল কিস বলে থাকি
+//!এই খান থেকে আমরা অবজেক্ট এর কিস গুল কে বের করছি Object keys হইচে  [ 'name', 'age', 'profsone', 'homeTowne' ]এই গুল কিস বলে থাকি
 var keys = Object.keys(name);
 console.log(keys)
 
-//আমরা এখন দেখব important ob    ject methods values এর ব্যবহার
+//!আমরা এখন দেখব important object methods values এর ব্যবহার
 var value = Object.values(name)
 console.log(value)
 //সেইম ভাভে আমরা ভ্যেলু বের করতে পারি just object এর কিস এর ওই খানে ভ্যালু বসি দিব অউটপুট আসবে [ 'jakaria', '22', 'devloper', 'pirojpur' ]
 
-// আমরা যদি keys value এক সাথে পেতে চাই তা হলে আর এক টা ম্যাথড ইউজ করতে পারি entries ম্যথড। আমরা যেমন করে kedy mathod and value mathod ব্যবহার করি সেম বাভে ব্যবহার করভ 
+//! আমরা যদি keys value এক সাথে পেতে চাই তা হলে আর এক টা ম্যাথড ইউজ করতে পারি entries ম্যথড। আমরা যেমন করে kedy mathod and value mathod ব্যবহার করি সেম বাভে ব্যবহার করভ 
 var entrie = Object.entries(name)
 console.log(entrie)
 // অউটপুট 
@@ -92,7 +98,7 @@ console.log(entrie)
 //   [ 'homeTowne', 'pirojpur' ]
 // ]
 
-//function default parameter valu
+//!function default parameter valu
 function myfun(x =10){//এই খানে রিটান করর্বে ১০ কারন এই খানে আমরা কন ব্যালু পাস করি নাই
    return x;
 }
@@ -116,7 +122,7 @@ function nul (t = 10){
 console.log(nul(null)) 
 //এই চারা আপনে যদি প্যারামিটা এর ব্যালু হিসাবে ন্যাল দেন তা হলে সে আপনাকে ন্যাল রিটন করর্বে প্যারা মিটার এর ডিফল্ট ব্যালু রিটান কর্রবে না
 
-//আমরা spread operator এর ব্যবহার দেখবো spread এর মানে সরিএ দেও  আমরা দেখবো spread অপারেটর এর ব্যবহার
+//!আমরা spread operator এর ব্যবহার দেখবো spread এর মানে সরিএ দেও  আমরা দেখবো spread অপারেটর এর ব্যবহার
 var spread = [1,2,3,4]
 var spread2 = [...spread ,5,6,7,8,9]
 console.log(spread2)
@@ -136,7 +142,7 @@ console.log({
     ...obj1,
     ...obj2
 })
-//rest operator
+//!rest operator
 
 function myfun(a,...params){
 

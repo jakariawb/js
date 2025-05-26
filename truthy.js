@@ -102,9 +102,12 @@ console.log(rusult);
 
 //array .prototype . reduce()
 
-var number2 = [1,3,5,4,67,8,]
+  var number2 = [1,3,5,4,67,8,]
 
  var rusult = number2.reduce((prevValue,currentValue,currentIndex,arr)=>{
     return prevValue + currentValue + currentIndex+ arr;
 } ,0)
 console.log(rusult)
+
+export var a = 1
+
