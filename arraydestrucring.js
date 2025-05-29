@@ -106,3 +106,57 @@ function naimInfo (strings, ...values){
 var number = "014303030"
 var Email = "jakaria jomadder"
 console.log(naimInfo `my Nunder ${number} and is my Email ${Email}`)
+
+
+ var add1 = ['1','2','3']
+  var add2 = ['1','2','3']
+  // দুইটা array কে spread operator দিয়ে একসাথে মিশিয়ে একটা নতুন array তৈরি করলাম
+  var Num = [...add1,...add2];
+  
+  // map ফাংশন দিয়ে প্রতিটা string কে number এ রূপান্তর করলাম
+  var stringConvert = Num.map(Number)
+  console.log(stringConvert)
+  console.log(typeof stringConvert)
+
+   var arr = [12,45,67,88,9,90,9,9]
+  var maxNumber= Math.max(...arr)
+  console.log(maxNumber)
+
+  var smoleNUmber = Math.min(...arr)
+  console.log(smoleNUmber)
+
+//   var Nines = arr.filter(function(reeptNmber){
+//      return reeptNmber === 9;
+//   })
+//   console.log(Nines);
+var Nines = arr.filter(nam => nam === 9)
+console.log(Nines)
+var num = 'my faberat Number'
+var fun = [1,2,3,4,55,6,6,7,77]
+       function addNumber() {
+      return fun.filter(function(num) {
+        return num % 2== 0;
+      });
+    }
+    var rusult = addNumber();
+      console.log(rusult,`my laki and = ${num}`)
+    function oddNumber1(){
+      return  fun.filter(function(num){
+            return num % 2 !== 0;
+        });
+    }
+    var result = oddNumber1()
+   var sum = result.reduce(function(acc,current){
+      return  acc + current
+    },0)
+  var result1 =  addNumber()
+    console.log(sum , `+ number ${sum}`)
+  var sub = sum - 43
+  console.log(sub,`- Number ${sub}`)
+  var nam = sub * 2;
+
+console.log(nam,`* Number ${nam}`)
+
+ 
+
+    
