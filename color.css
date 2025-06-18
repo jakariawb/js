@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+#colorBox{
+    height: 200px;
+    width: 200px;
+    border: 4px solid green;
+    margin: 0 auto;
+}
+#copyButton{
+    background-color: rgb(7, 162, 7);
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+#copyButton:hover{
+    background-color: rgb(32, 79, 32);
+    cursor: pointer;
+}

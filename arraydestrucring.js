@@ -107,9 +107,8 @@ var number = "014303030"
 var Email = "jakaria jomadder"
 console.log(naimInfo `my Nunder ${number} and is my Email ${Email}`)
 
-
- var add1 = ['1','2','3']
-  var add2 = ['1','2','3']
+ var add1 = ['1','2','3'];
+  var add2 = ['1','2','3'];
   // দুইটা array কে spread operator দিয়ে একসাথে মিশিয়ে একটা নতুন array তৈরি করলাম
   var Num = [...add1,...add2];
   
@@ -135,7 +134,7 @@ var num = 'my faberat Number'
 var fun = [1,2,3,4,55,6,6,7,77]
        function addNumber() {
       return fun.filter(function(num) {
-        return num % 2== 0;
+        return num % 2 == 0;
       });
     }
     var rusult = addNumber();
@@ -157,6 +156,7 @@ var fun = [1,2,3,4,55,6,6,7,77]
 
 console.log(nam,`* Number ${nam}`)
 
- 
+ var namString = String(nam)
+var result =  namString.push()
 
-    
+ console.log(result)

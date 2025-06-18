@@ -30,3 +30,21 @@ console.log(sue)
 var octal = 0o75
 console.log(octal)
 
+var arr = [1,2,3,4,5,6,7,8]
+var result =  arr.findIndex((currentValue, index, arr)=>{
+    return currentValue >4;
+})
+console.log 
+
+const itemList = document.querySelectorAll('.list')
+const btn = document.getElementById('btn')
+
+function myFun(){
+    document.addEventListener('click',()=>{
+     const name = document.getElementsByTagName('list')
+        
+    })
+   console.log(itemList)
+}
+myFun()
+

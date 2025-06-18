@@ -70,3 +70,7 @@ var info = {
     }
 }
 info.printInfo();
+import {name} from './truthy.js';
+console.log(name); // 'jakaria' from truthy.js
+
+
