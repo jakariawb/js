@@ -14,8 +14,57 @@ body{
     padding: 10px 20px;
     color: aliceblue;
     font-size: 20px;
+    margin-top: 10px;
+    font-weight :900px;
+}
+.btn{
+    color: azure;
+    background-color: rgb(178,70,177);
+    padding: 10px 10px;
+    font-weight: 900;
+    text-shadow: 5px 5px #222324;
 }
 #copyButton:hover{
     background-color: rgb(32, 79, 32);
     cursor: pointer;
+
+}
+/* mine project 2 */
+.timer{
+    padding: 10px;
+    font-siZe:30px;
+    font-weight:900;
+}
+.start-btn , .stop-btn{
+    background-color: rgb(116, 106, 181);
+    color: aliceblue;
+    font-size:20px;
+    padding:7px 15px;
+    border-radius: 3px;
+    border-color:green;
+}
+.task-container{
+   padding: 10px 20px;
+    margin-top: 20px;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50%;
+
+}
+#addButton , #removeTask{
+    background-color: rgb(7, 162, 7);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-weight :900px;
+    border-radius: 5px;
+}
+#textInput{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(7, 162, 7);
 }
